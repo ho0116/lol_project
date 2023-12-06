@@ -61,8 +61,7 @@ LOL을 개발한 Riot Games는 비단 게임 자체의 재미뿐만 아니라 �
 
 |  |0825|0915|0917|
 |:---:|:---:|:---:|:---:|
-|Platinum↑|44962|28209|25208|
-|avg5↑||||
+|Platinum ↑|44962|28209|25208|
 
 도출된 플래티넘 이상의 경기에 대해서, 데이터 속성으로 kda, dpm, dpg, dpd, dtpm을 추출했다. 그 이유는 게임의 전반적인 흐름과 전략적인 측면보다는 전투관련지표를 중점으로 삼아 승패 예측을 해보고 싶기때문이다. 그리고 승패를 예측하는 것이기 때문에, 경기 데이터를 기준으로 데이터 속성별 정규화(normalize)를 수행했다. 
 
@@ -86,5 +85,15 @@ CNN을 썼다. 단순한 합산을 썼다.
 ### 3.3 소결
 * 성능에 대한 의미
 * 핵심 데이터 항목에 대한 추정 및 분석
+
+<table>
+  <tr align="center"><th></th><th></th><th>정확도(단순)</th><th>정확도(CNN)</th></tr>
+  <tr align="center"><th rowspan="2">0825</th><td>Platinum↑</td><td>95%</td><td>95.3%</td></tr>
+  <tr align="center"><td>전체</td><td>93.6%</td><td></td></tr>
+  <tr align="center"><th rowspan="2">0915</th><td>Platinum↑</td><td>93.4%</td><td></td></tr>
+  <tr align="center"><td>전체</td><td>90.3%</td><td></td></tr>
+  <tr align="center"><th rowspan="2">0917</th><td>Platinum↑</td><td>88.4%</td><td></td></tr>
+  <tr align="center"><td>전체</td><td>86.2%</td><td></td></tr>
+</table>
 
 ## 4. 결론 및 배운점
