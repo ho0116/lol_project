@@ -145,18 +145,16 @@ LOL을 개발한 Riot Games는 비단 게임 자체의 재미뿐만 아니라 �
 </table>
 
 ## 3. 승패예측 모델
-
 ### 3.1 모델 개요
-단순한 합산을 썼다.
-
+각 팀의 특징 데이터를 합산하고 정규화한 후, 승패를 예측하는 단순한 합산을 사용하는 모델이다.
 ### 3.2 성능
 <table>
   <tr align="center"><th></th><th></th><th>정확도(단순)</th></tr>
-  <tr align="center"><th rowspan="2">0825</th><td>Platinum↑</td><td>95%</td></tr>
+  <tr align="center"><th rowspan="2">0825</th><td>플래티넘 ↑</td><td>95%</td></tr>
   <tr align="center"><td>전체</td><td>93.6%</td></tr>
-  <tr align="center"><th rowspan="2">0915</th><td>Platinum↑</td><td>93.4%</td></tr>
+  <tr align="center"><th rowspan="2">0915</th><td>플래티넘 ↑</td><td>93.4%</td></tr>
   <tr align="center"><td>전체</td><td>90.3%</td></tr>
-  <tr align="center"><th rowspan="2">0917</th><td>Platinum↑</td><td>88.4%</td></tr>
+  <tr align="center"><th rowspan="2">0917</th><td>플래티넘 ↑</td><td>88.4%</td></tr>
   <tr align="center"><td>전체</td><td>86.2%</td></tr>
 </table>
 
@@ -164,3 +162,4 @@ LOL을 개발한 Riot Games는 비단 게임 자체의 재미뿐만 아니라 �
 * 성능에 대한 의미
 * 핵심 데이터 항목에 대한 추정 및 분석
 ## 4. 결론 및 배운점
+단순한 합산 방법을 활용한 승패 예측 모델은 특정한 날짜에 대해서는 높은 정확도를 보여주고 있지만, 전체적인 정확도에 대한 안정성은 여전히 고려해야 한다. 이러한 한계 때문에 더 정교하게 예측하기 위해서는 CNN과 같은 더 복잡하고 정교한 모델을 사용하는 것이 효과적일 것으로 판단된다.
