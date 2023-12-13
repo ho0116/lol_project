@@ -89,38 +89,17 @@ LOL을 개발한 Riot Games는 비단 게임 자체의 재미뿐만 아니라 �
 
 <details>
 <summary>0825 티어 분포도</summary>
-<details>
-<summary>0825 전체 티어 분포도</summary>
 <div align="left"><img src="https://github.com/ho0116/lol_project/assets/85285367/8ca2317e-e720-4b94-aa2b-434c6be4ad34"> </div>
-</details>
-<details>
-<summary>0825 플래티넘 ↑ 티어 분포도</summary>
-<div align="left"><img src="https://github.com/ho0116/lol_project/assets/85285367/992dd292-d344-49f1-bd50-27198a92928f"> </div>
-</details>
 </details>
 
 <details>
 <summary>0915 티어 분포도</summary>
-<details>
-<summary>0915 전체 티어 분포도</summary>
 <div align="left"><img src="https://github.com/ho0116/lol_project/assets/85285367/38e1a7c6-02fe-4ae7-b95c-c94bf1c329ee"> </div>
-</details>
-<details>
-<summary>0915 플래티넘 ↑ 티어 분포도</summary>
-<div align="left"><img src="https://github.com/ho0116/lol_project/assets/85285367/7c65e836-9feb-41bf-99a5-df329df602de"> </div>
-</details>
 </details>
 
 <details>
 <summary>0917 티어 분포도</summary>
-<details>
-<summary>0917 전체 티어 분포도</summary>
 <div align="left"><img src="https://github.com/ho0116/lol_project/assets/85285367/0a2208ea-e9aa-4b19-8891-315f61aa162f"></div>
-</details>
-<details>
-<summary>0917 플래티넘 ↑ 티어 분포도</summary>
-<div align="left"><img src="https://github.com/ho0116/lol_project/assets/85285367/10613391-1b7f-4da6-84d0-edda502a946a"> </div>
-</details>
 </details>
 
 
@@ -162,4 +141,4 @@ LOL을 개발한 Riot Games는 비단 게임 자체의 재미뿐만 아니라 �
 * 성능에 대한 의미
 * 핵심 데이터 항목에 대한 추정 및 분석
 ## 4. 결론 및 배운점
-단순한 합산 방법을 활용한 승패 예측 모델은 특정한 날짜에 대해서는 높은 정확도를 보여주고 있지만, 전체적인 정확도에 대한 안정성은 여전히 고려해야 한다. 이러한 한계 때문에 더 정교하게 예측하기 위해서는 CNN과 같은 더 복잡하고 정교한 모델을 사용하는 것이 효과적일 것으로 판단된다.
+단순한 합산 방법을 활용한 승패 예측 모델은 특정한 날짜에 대해서는 높은 정확도를 보여주고 있지만, 전체적인 정확도에 대한 안정성은 여전히 고려해야 한다. 이러한 한계 때문에 더 정교하게 예측하기 위해서는 CNN과 같은 더 복잡하고 정교한 모델을 사용하는 것이 효과적일 것으로 판단된다. 롤에 대해 관심이 있어서 배경지식이 많았다면 조금 더 수월하지않았을까하는 생각이 든다. 
